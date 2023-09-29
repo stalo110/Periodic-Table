@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  html{
+    width: 100%;
+    height: 100%;
+  }
+  
+  body{
+    background-color: #000000
+  }
+  
+  .periodic-table{
+    display: grid;
+    justify-content: center;
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-columns: repeat(19, 1fr);
+    gap: 5px;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    margin-top: 50px;
+  }
+  
+  .periodic-table div{
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+  }
+  .periodic-table span{
+    font-size: 25px;
+  }
+  .periodic-table sup{
+    font-size: 15px;
+    position: relative;
+    right: 10px;
+    padding-right: 25px;
+    padding-left: 5px;
+  }
+  
+  .dark-green-class{
+    background-color: #0A2203;
+  }
+  .purple-class{
+    background-color: #671944;
+  }
+  .blue-class{
+    background-color: #0B4488;
+  }
+  .red-class{
+    background-color: #891C19;
+  }
+  .pink-class{
+    background-color: #DE44AB;
+  }
+  .brown-class{
+    background-color: #87441C;
+  }
+  .sky-blue-class{
+    background-color: #246688;
+  }
+  .light-green-class{
+    background-color: #4FAB2A;
+  }
